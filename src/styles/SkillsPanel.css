@@ -1,0 +1,42 @@
+/* SkillsPanel.css */
+.skills-panel {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  .skills-panel h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .skills-panel ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-panel li {
+    margin-bottom: 10px;
+  }
+  
+  .skills-panel p {
+    margin: 0;
+  }
+  .strength {
+    color: rgb(156, 65, 0); /* Color para el atributo "strength" */
+  }
+  
+  .agility {
+    color: green; /* Color para el atributo "agility" */
+  }
+  
+  .intelligence {
+    color: rgb(255, 30, 0); /* Color para el atributo "intelligence" */
+  }
+  .luck {
+    color: rgb(0, 85, 255); /* Color para el atributo "intelligence" */
+  }
+  .vitality {
+    color: rgb(183, 0, 255); /* Color para el atributo "intelligence" */
+  }

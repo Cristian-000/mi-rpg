@@ -1,0 +1,27 @@
+/* CharacterPanel.css */
+.character-panel {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f5f5f5;
+}
+
+.attribute-container {
+    display: column;
+    flex-wrap: wrap; /* Permite que las características se envuelvan en varias líneas si no caben en el ancho del contenedor */
+}
+
+.attribute {
+    display: flex;
+    align-items: center; /* Centra verticalmente el texto y el botón dentro de cada característica */
+    margin-right: 20px; /* Agrega espacio entre cada característica */
+}
+
+.attribute p {
+    margin: 0;
+    padding-right: 5px; /* Añade espacio a la derecha del texto */
+}
+
+.attribute button {
+    padding: 5px 10px; /* Ajusta el espacio alrededor del botón */
+}

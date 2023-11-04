@@ -1,0 +1,35 @@
+.inventory-panel {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Inventory.css */
+
+
+.inventory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 10px;
+}
+
+.inventory-item {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer; /* Agrega esto para indicar que se puede hacer clic */
+}
+
+.item-details {
+  background-color: #e0e0e0;
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: left;
+}
+
+.item-details button {
+  display: block;
+  margin-top: 10px;
+}
